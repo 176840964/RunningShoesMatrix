@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		827C30E01D40790C00018693 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 827C30DF1D40790C00018693 /* main.m */; };
+		827C30E31D40790C00018693 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 827C30E21D40790C00018693 /* AppDelegate.m */; };
+		827C30E61D40790C00018693 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 827C30E51D40790C00018693 /* ViewController.m */; };
+		827C30E91D40790C00018693 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 827C30E71D40790C00018693 /* Main.storyboard */; };
+		827C30EB1D40790C00018693 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 827C30EA1D40790C00018693 /* Assets.xcassets */; };
+		827C30EE1D40790C00018693 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 827C30EC1D40790C00018693 /* LaunchScreen.storyboard */; };
+		827C30F61D4079B500018693 /* runningshoes.xls in Resources */ = {isa = PBXBuildFile; fileRef = 827C30F51D4079B500018693 /* runningshoes.xls */; };
+		827C31A81D40814600018693 /* libDHxlsReaderIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 827C31A11D407F2800018693 /* libDHxlsReaderIOS.a */; };
+		827C31AE1D40819800018693 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 827C31AD1D40819800018693 /* libiconv.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		827C31A01D407F2800018693 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 827C319B1D407F2800018693 /* DHxlsReaderIOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DEB78ABF14BB9ABF00845894;
+			remoteInfo = DHxlsReaderIOS;
+		};
+		827C31A21D407F2800018693 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 827C319B1D407F2800018693 /* DHxlsReaderIOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 97BCBBE716DD4E9A00FF978C;
+			remoteInfo = DHxlsReader;
+		};
+		827C31A91D40816400018693 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 827C319B1D407F2800018693 /* DHxlsReaderIOS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DEB78ABE14BB9ABF00845894;
+			remoteInfo = DHxlsReaderIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		827C30DB1D40790C00018693 /* RunningShoesMatrix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunningShoesMatrix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		827C30DF1D40790C00018693 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		827C30E11D40790C00018693 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		827C30E21D40790C00018693 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		827C30E41D40790C00018693 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		827C30E51D40790C00018693 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		827C30E81D40790C00018693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		827C30EA1D40790C00018693 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		827C30ED1D40790C00018693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		827C30EF1D40790C00018693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		827C30F51D4079B500018693 /* runningshoes.xls */ = {isa = PBXFileReference; lastKnownFileType = file; path = runningshoes.xls; sourceTree = "<group>"; };
+		827C319B1D407F2800018693 /* DHxlsReaderIOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DHxlsReaderIOS.xcodeproj; path = DHlibxls/DHxlsReaderIOS.xcodeproj; sourceTree = "<group>"; };
+		827C31AD1D40819800018693 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		827C30D81D40790C00018693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827C31AE1D40819800018693 /* libiconv.tbd in Frameworks */,
+				827C31A81D40814600018693 /* libDHxlsReaderIOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		827C30D21D40790C00018693 = {
+			isa = PBXGroup;
+			children = (
+				827C319B1D407F2800018693 /* DHxlsReaderIOS.xcodeproj */,
+				827C30F51D4079B500018693 /* runningshoes.xls */,
+				827C31AD1D40819800018693 /* libiconv.tbd */,
+				827C30DD1D40790C00018693 /* RunningShoesMatrix */,
+				827C30DC1D40790C00018693 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		827C30DC1D40790C00018693 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				827C30DB1D40790C00018693 /* RunningShoesMatrix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		827C30DD1D40790C00018693 /* RunningShoesMatrix */ = {
+			isa = PBXGroup;
+			children = (
+				827C30E11D40790C00018693 /* AppDelegate.h */,
+				827C30E21D40790C00018693 /* AppDelegate.m */,
+				827C30E41D40790C00018693 /* ViewController.h */,
+				827C30E51D40790C00018693 /* ViewController.m */,
+				827C30E71D40790C00018693 /* Main.storyboard */,
+				827C30EA1D40790C00018693 /* Assets.xcassets */,
+				827C30EC1D40790C00018693 /* LaunchScreen.storyboard */,
+				827C30EF1D40790C00018693 /* Info.plist */,
+				827C30DE1D40790C00018693 /* Supporting Files */,
+			);
+			path = RunningShoesMatrix;
+			sourceTree = "<group>";
+		};
+		827C30DE1D40790C00018693 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				827C30DF1D40790C00018693 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		827C319C1D407F2800018693 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				827C31A11D407F2800018693 /* libDHxlsReaderIOS.a */,
+				827C31A31D407F2800018693 /* libDHxlsReader.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		827C30DA1D40790C00018693 /* RunningShoesMatrix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 827C30F21D40790C00018693 /* Build configuration list for PBXNativeTarget "RunningShoesMatrix" */;
+			buildPhases = (
+				827C30D71D40790C00018693 /* Sources */,
+				827C30D81D40790C00018693 /* Frameworks */,
+				827C30D91D40790C00018693 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				827C31AA1D40816400018693 /* PBXTargetDependency */,
+			);
+			name = RunningShoesMatrix;
+			productName = RunningShoesMatrix;
+			productReference = 827C30DB1D40790C00018693 /* RunningShoesMatrix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		827C30D31D40790C00018693 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Xiaolong-Playing";
+				TargetAttributes = {
+					827C30DA1D40790C00018693 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 827C30D61D40790C00018693 /* Build configuration list for PBXProject "RunningShoesMatrix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 827C30D21D40790C00018693;
+			productRefGroup = 827C30DC1D40790C00018693 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 827C319C1D407F2800018693 /* Products */;
+					ProjectRef = 827C319B1D407F2800018693 /* DHxlsReaderIOS.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				827C30DA1D40790C00018693 /* RunningShoesMatrix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		827C31A11D407F2800018693 /* libDHxlsReaderIOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDHxlsReaderIOS.a;
+			remoteRef = 827C31A01D407F2800018693 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		827C31A31D407F2800018693 /* libDHxlsReader.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDHxlsReader.a;
+			remoteRef = 827C31A21D407F2800018693 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		827C30D91D40790C00018693 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827C30F61D4079B500018693 /* runningshoes.xls in Resources */,
+				827C30EE1D40790C00018693 /* LaunchScreen.storyboard in Resources */,
+				827C30EB1D40790C00018693 /* Assets.xcassets in Resources */,
+				827C30E91D40790C00018693 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		827C30D71D40790C00018693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				827C30E61D40790C00018693 /* ViewController.m in Sources */,
+				827C30E31D40790C00018693 /* AppDelegate.m in Sources */,
+				827C30E01D40790C00018693 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		827C31AA1D40816400018693 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DHxlsReaderIOS;
+			targetProxy = 827C31A91D40816400018693 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		827C30E71D40790C00018693 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				827C30E81D40790C00018693 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		827C30EC1D40790C00018693 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				827C30ED1D40790C00018693 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		827C30F01D40790C00018693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LIBRARY_SEARCH_PATHS = "$(SRTROOT)";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		827C30F11D40790C00018693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LIBRARY_SEARCH_PATHS = "$(SRTROOT)";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		827C30F31D40790C00018693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = RunningShoesMatrix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(SRTROOT)";
+				OTHER_LDFLAGS = "-all_load ";
+				PRODUCT_BUNDLE_IDENTIFIER = longtu.test.RunningShoesMatrix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		827C30F41D40790C00018693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = RunningShoesMatrix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(SRTROOT)";
+				OTHER_LDFLAGS = "-all_load ";
+				PRODUCT_BUNDLE_IDENTIFIER = longtu.test.RunningShoesMatrix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		827C30D61D40790C00018693 /* Build configuration list for PBXProject "RunningShoesMatrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				827C30F01D40790C00018693 /* Debug */,
+				827C30F11D40790C00018693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		827C30F21D40790C00018693 /* Build configuration list for PBXNativeTarget "RunningShoesMatrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				827C30F31D40790C00018693 /* Debug */,
+				827C30F41D40790C00018693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 827C30D31D40790C00018693 /* Project object */;
+}
