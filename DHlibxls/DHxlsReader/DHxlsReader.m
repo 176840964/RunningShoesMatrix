@@ -261,10 +261,14 @@
 
 - (void)formatContent:(DHcell *)content withCell:(xlsCell *)cell
 {
+    //add by xiaolong 20160725
+    content.rowSpan = (cell->rowspan == 0)? 1: cell->rowspan;
+    content.colSpan = (cell->colspan == 0)? 1: cell->colspan;
+    //end add
+    
 	NSUInteger col = cell->col;
 
 	content.row = cell->row + 1;
-	
 	{
 		content.col = col + 1;
 		char colStr[3];

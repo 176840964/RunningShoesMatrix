@@ -38,5 +38,6 @@
 @property (nonatomic, strong, readwrite) NSString *str;		// typeof depends on contentsType
 @property (nonatomic, strong, readwrite) NSNumber *val;		// typeof depends on contentsType
 
-
+@property (nonatomic, assign, readwrite) uint16_t rowSpan;
+@property (nonatomic, assign, readwrite) uint16_t colSpan;
 @end

@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		827B14AA1D45B85A009D7A1D /* ElementPosition.plist in Resources */ = {isa = PBXBuildFile; fileRef = 827B14A91D45B85A009D7A1D /* ElementPosition.plist */; };
+		827B14B21D45CD83009D7A1D /* ElementPositionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 827B14B11D45CD83009D7A1D /* ElementPositionManager.m */; };
+		827B14B91D45E9E3009D7A1D /* ReaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 827B14B81D45E9E3009D7A1D /* ReaderManager.m */; };
+		827B14BF1D45F82A009D7A1D /* SelectTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 827B14BE1D45F82A009D7A1D /* SelectTypeViewController.m */; };
+		827B14C31D45FAC9009D7A1D /* LevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 827B14C21D45FAC9009D7A1D /* LevelViewController.m */; };
+		827B14C61D45FF88009D7A1D /* ShoesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 827B14C51D45FF88009D7A1D /* ShoesModel.m */; };
+		827B14CA1D460A9A009D7A1D /* NextLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 827B14C91D460A9A009D7A1D /* NextLevelViewController.m */; };
+		827B14CF1D460C42009D7A1D /* NameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 827B14CE1D460C42009D7A1D /* NameViewController.m */; };
+		827B14D21D460C4E009D7A1D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 827B14D11D460C4E009D7A1D /* DetailViewController.m */; };
 		827C30E01D40790C00018693 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 827C30DF1D40790C00018693 /* main.m */; };
 		827C30E31D40790C00018693 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 827C30E21D40790C00018693 /* AppDelegate.m */; };
 		827C30E61D40790C00018693 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 827C30E51D40790C00018693 /* ViewController.m */; };
@@ -43,6 +52,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		827B14A91D45B85A009D7A1D /* ElementPosition.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ElementPosition.plist; sourceTree = "<group>"; };
+		827B14B01D45CD83009D7A1D /* ElementPositionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementPositionManager.h; sourceTree = "<group>"; };
+		827B14B11D45CD83009D7A1D /* ElementPositionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElementPositionManager.m; sourceTree = "<group>"; };
+		827B14B31D45D072009D7A1D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		827B14B71D45E9E3009D7A1D /* ReaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderManager.h; sourceTree = "<group>"; };
+		827B14B81D45E9E3009D7A1D /* ReaderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderManager.m; sourceTree = "<group>"; };
+		827B14BD1D45F82A009D7A1D /* SelectTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectTypeViewController.h; sourceTree = "<group>"; };
+		827B14BE1D45F82A009D7A1D /* SelectTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectTypeViewController.m; sourceTree = "<group>"; };
+		827B14C11D45FAC9009D7A1D /* LevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelViewController.h; sourceTree = "<group>"; };
+		827B14C21D45FAC9009D7A1D /* LevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelViewController.m; sourceTree = "<group>"; };
+		827B14C41D45FF88009D7A1D /* ShoesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoesModel.h; sourceTree = "<group>"; };
+		827B14C51D45FF88009D7A1D /* ShoesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoesModel.m; sourceTree = "<group>"; };
+		827B14C81D460A9A009D7A1D /* NextLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextLevelViewController.h; sourceTree = "<group>"; };
+		827B14C91D460A9A009D7A1D /* NextLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextLevelViewController.m; sourceTree = "<group>"; };
+		827B14CD1D460C42009D7A1D /* NameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameViewController.h; sourceTree = "<group>"; };
+		827B14CE1D460C42009D7A1D /* NameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameViewController.m; sourceTree = "<group>"; };
+		827B14D01D460C4E009D7A1D /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		827B14D11D460C4E009D7A1D /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		827C30DB1D40790C00018693 /* RunningShoesMatrix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunningShoesMatrix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		827C30DF1D40790C00018693 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		827C30E11D40790C00018693 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -71,9 +98,85 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		827B14AC1D45CCAE009D7A1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				827B14C41D45FF88009D7A1D /* ShoesModel.h */,
+				827B14C51D45FF88009D7A1D /* ShoesModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		827B14B51D45E963009D7A1D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				827B14B01D45CD83009D7A1D /* ElementPositionManager.h */,
+				827B14B11D45CD83009D7A1D /* ElementPositionManager.m */,
+				827B14B71D45E9E3009D7A1D /* ReaderManager.h */,
+				827B14B81D45E9E3009D7A1D /* ReaderManager.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		827B14BB1D45F7C3009D7A1D /* 1.BrandsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				827C30E41D40790C00018693 /* ViewController.h */,
+				827C30E51D40790C00018693 /* ViewController.m */,
+			);
+			name = 1.BrandsViewController;
+			sourceTree = "<group>";
+		};
+		827B14BC1D45F801009D7A1D /* 2.SelectTypeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				827B14BD1D45F82A009D7A1D /* SelectTypeViewController.h */,
+				827B14BE1D45F82A009D7A1D /* SelectTypeViewController.m */,
+			);
+			name = 2.SelectTypeViewController;
+			sourceTree = "<group>";
+		};
+		827B14C01D45FA63009D7A1D /* 3.LevelViewController */ = {
+			isa = PBXGroup;
+			children = (
+				827B14C71D460A68009D7A1D /* 3.1.NextLevelViewController */,
+				827B14C11D45FAC9009D7A1D /* LevelViewController.h */,
+				827B14C21D45FAC9009D7A1D /* LevelViewController.m */,
+			);
+			name = 3.LevelViewController;
+			sourceTree = "<group>";
+		};
+		827B14C71D460A68009D7A1D /* 3.1.NextLevelViewController */ = {
+			isa = PBXGroup;
+			children = (
+				827B14C81D460A9A009D7A1D /* NextLevelViewController.h */,
+				827B14C91D460A9A009D7A1D /* NextLevelViewController.m */,
+			);
+			name = 3.1.NextLevelViewController;
+			sourceTree = "<group>";
+		};
+		827B14CB1D460C0E009D7A1D /* 4.NameViewController */ = {
+			isa = PBXGroup;
+			children = (
+				827B14CD1D460C42009D7A1D /* NameViewController.h */,
+				827B14CE1D460C42009D7A1D /* NameViewController.m */,
+			);
+			name = 4.NameViewController;
+			sourceTree = "<group>";
+		};
+		827B14CC1D460C1A009D7A1D /* 5.DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				827B14D01D460C4E009D7A1D /* DetailViewController.h */,
+				827B14D11D460C4E009D7A1D /* DetailViewController.m */,
+			);
+			name = 5.DetailViewController;
+			sourceTree = "<group>";
+		};
 		827C30D21D40790C00018693 = {
 			isa = PBXGroup;
 			children = (
+				827B14A91D45B85A009D7A1D /* ElementPosition.plist */,
 				827C319B1D407F2800018693 /* DHxlsReaderIOS.xcodeproj */,
 				827C30F51D4079B500018693 /* runningshoes.xls */,
 				827C31AD1D40819800018693 /* libiconv.tbd */,
@@ -93,10 +196,15 @@
 		827C30DD1D40790C00018693 /* RunningShoesMatrix */ = {
 			isa = PBXGroup;
 			children = (
+				827B14BB1D45F7C3009D7A1D /* 1.BrandsViewController */,
+				827B14BC1D45F801009D7A1D /* 2.SelectTypeViewController */,
+				827B14C01D45FA63009D7A1D /* 3.LevelViewController */,
+				827B14CB1D460C0E009D7A1D /* 4.NameViewController */,
+				827B14CC1D460C1A009D7A1D /* 5.DetailViewController */,
+				827B14B51D45E963009D7A1D /* Common */,
+				827B14AC1D45CCAE009D7A1D /* Model */,
 				827C30E11D40790C00018693 /* AppDelegate.h */,
 				827C30E21D40790C00018693 /* AppDelegate.m */,
-				827C30E41D40790C00018693 /* ViewController.h */,
-				827C30E51D40790C00018693 /* ViewController.m */,
 				827C30E71D40790C00018693 /* Main.storyboard */,
 				827C30EA1D40790C00018693 /* Assets.xcassets */,
 				827C30EC1D40790C00018693 /* LaunchScreen.storyboard */,
@@ -110,6 +218,7 @@
 			isa = PBXGroup;
 			children = (
 				827C30DF1D40790C00018693 /* main.m */,
+				827B14B31D45D072009D7A1D /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -206,6 +315,7 @@
 			files = (
 				827C30F61D4079B500018693 /* runningshoes.xls in Resources */,
 				827C30EE1D40790C00018693 /* LaunchScreen.storyboard in Resources */,
+				827B14AA1D45B85A009D7A1D /* ElementPosition.plist in Resources */,
 				827C30EB1D40790C00018693 /* Assets.xcassets in Resources */,
 				827C30E91D40790C00018693 /* Main.storyboard in Resources */,
 			);
@@ -219,8 +329,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				827C30E61D40790C00018693 /* ViewController.m in Sources */,
+				827B14C31D45FAC9009D7A1D /* LevelViewController.m in Sources */,
+				827B14CA1D460A9A009D7A1D /* NextLevelViewController.m in Sources */,
+				827B14B21D45CD83009D7A1D /* ElementPositionManager.m in Sources */,
+				827B14BF1D45F82A009D7A1D /* SelectTypeViewController.m in Sources */,
+				827B14C61D45FF88009D7A1D /* ShoesModel.m in Sources */,
 				827C30E31D40790C00018693 /* AppDelegate.m in Sources */,
+				827B14D21D460C4E009D7A1D /* DetailViewController.m in Sources */,
+				827B14CF1D460C42009D7A1D /* NameViewController.m in Sources */,
 				827C30E01D40790C00018693 /* main.m in Sources */,
+				827B14B91D45E9E3009D7A1D /* ReaderManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +462,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RunningShoesMatrix/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = RunningShoesMatrix/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -358,6 +477,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RunningShoesMatrix/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = RunningShoesMatrix/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

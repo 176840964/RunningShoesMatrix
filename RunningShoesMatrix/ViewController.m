@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "../DHlibxls/DHxlsReader/DHxlsReader.h"
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -32,17 +31,16 @@
 
 #pragma mark - 
 - (void)getBrandsDate {
-    NSString *path = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"runningshoes.xls"];
-    DHxlsReader *reader = [DHxlsReader xlsReaderWithPath:path];
-    assert(reader);
-    [reader startIterator:0];//参数是sheet编号
-    int col = 3;
+//    DHcell *cell = [[ReaderManager shareManager] cellInWorkSheetIndex:0 row:3 col:1];
+//    NSLog(@"info:%@", [cell dump]);
+    
+    NSInteger col = [[ElementPositionManager shareManager] brandsDicMinCol];
     while (YES) {
-        DHcell *cell = [reader cellInWorkSheetIndex:0 row:2 col:col];
+        DHcell *cell = [[ReaderManager shareManager] cellInWorkSheetIndex:0 row:2 col:col];
         if (cell.type == cellBlank) {
             break;
         }
-        [self.brandArr addObject:cell.str];
+        [self.brandArr addObject:cell];
         col ++;
     }
 }
@@ -54,13 +52,23 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"test"];
-    NSString *str = [self.brandArr objectAtIndex:indexPath.row];
-    cell.textLabel.text = str;
+    DHcell *xlsCell = [self.brandArr objectAtIndex:indexPath.row];
+    cell.textLabel.text = xlsCell.str;
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
     return cell;
 }
 
 #pragma mark - UITableViewDelegate
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    DHcell *xlsCell = [self.brandArr objectAtIndex:indexPath.row];
+    
+    [[ShoesModel shareInstance] clear];
+    [ShoesModel shareInstance].col = xlsCell.col;
+    [ShoesModel shareInstance].brandStr = xlsCell.str;
+    
+    [self performSegueWithIdentifier:@"ShowSelectViewController" sender:self];
+}
 
 @end

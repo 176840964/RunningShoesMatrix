@@ -38,6 +38,9 @@ typedef enum { cellBlank=0, cellString, cellInteger, cellFloat, cellBool, cellEr
 @property (nonatomic, strong, readonly) NSString *str;		// typeof depends on contentsType
 @property (nonatomic, strong, readonly) NSNumber *val;		// typeof depends on contentsType
 
+@property (nonatomic, assign, readonly) uint16_t rowSpan;
+@property (nonatomic, assign, readonly) uint16_t colSpan;
+
 + (DHcell *)blankCell;
 
 // Debugging

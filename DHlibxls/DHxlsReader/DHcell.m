@@ -45,6 +45,8 @@
 @synthesize col;
 @synthesize str;
 @synthesize val;
+@synthesize rowSpan;
+@synthesize colSpan;
 
 + (DHcell *)blankCell
 {
@@ -84,6 +86,7 @@
 
 	[s appendString:@"====================\n"];
 	[s appendFormat:@"CellType: %s row=%u col=%s/%u\n", name, row, colString, col];
+    [s appendFormat:@"rowSpan=%u, colSpan=%u", rowSpan, colSpan];
 	[s appendFormat:@"   string:    %@\n", str];
 	
 	switch(type) {
